@@ -1,0 +1,140 @@
+.Header-Cont {
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  border:2px solid var(--second-bg);
+  border-radius: 20px;
+  background-color: var(--second-color);
+  margin-top: 20px;
+}
+
+.Info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.Job{
+  font-size: 1rem;
+}
+.Job h2{
+  color: #666;
+}
+
+.Available {
+  display: flex;
+  align-items: center;
+  font-size: .8rem;
+  border: 2px solid var(--second-bg);
+  border-radius: 20px;
+  padding: 0 5px;
+}
+
+.Light {
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.Info-Self {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.Info-Text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.Info-Text h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.Info-Text p {
+  font-weight: 500;
+  color: #666;
+}
+
+.Info-Img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 50%;
+}
+
+.Info-Img img {
+  height: 140px;
+  width: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 3px;
+}
+.Image-Border{
+  height: 150px;
+  width: 150px;
+  background-color: var(--second-bg);
+  border: 2px solid var(--primary-color);
+  border-radius: 100%;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.hire-me {
+  background-color: var(--primary-color); 
+  color: white;
+  border: 2px solid black;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(225, 0, 255, 0.5); 
+}
+
+.hire-me:hover {
+  background-color: #9C27B0; 
+  box-shadow: 0 0 20px rgba(128, 0, 128, 0.8); 
+}
+
+.copy-email {
+  background-color: var(--primary-bg);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.copy-email:hover {
+  background-color: #808080; 
+}
+
+.icon-button {
+  height: 100%;
+  margin-left: 10px; 
+  display: flex;
+  align-items: center;
+  border-left: 2px solid black; 
+  padding-left: 10px; 
+}
+
+.icon-button img {
+  width: 20px;
+  height: 20px;
+}
+
