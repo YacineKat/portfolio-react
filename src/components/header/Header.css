@@ -44,7 +44,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .Info-Text {
@@ -83,58 +83,93 @@
   border: 2px solid var(--primary-color);
   border-radius: 100%;
 }
-.buttons {
+.Buttons {
+  margin-top: 15px;
   display: flex;
   gap: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.Buttons p{
+  font-size: 1.1rem;
 }
 
-.hire-me {
+.Hire-Me {
   background-color: var(--primary-color); 
   color: white;
   border: 2px solid black;
-  padding: 10px 20px;
+  padding: 0 10px;
   font-size: 1.2rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   border-radius: 5px;
   transition: all 0.3s ease;
-  box-shadow: 0 0 10px rgba(225, 0, 255, 0.5); 
+  box-shadow:
+  0 0 20px .1px rgba(225, 0, 255, 0.5), 
+  inset 0 3px 1px rgb(230, 120, 252); 
 }
 
-.hire-me:hover {
-  background-color: #9C27B0; 
-  box-shadow: 0 0 20px rgba(128, 0, 128, 0.8); 
+.Hire-Me:hover {
+  background-color: rgb(230, 120, 252); 
+  box-shadow: 0 0 30px .1px  rgb(217, 24, 255); 
 }
-
-.copy-email {
+.Copy-Email {
   background-color: var(--primary-bg);
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 0 10px;
   font-size: 1.2rem;
   cursor: pointer;
   display: flex;
   align-items: center;
+  border: 1.5px solid var(--second-bg);
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
-.copy-email:hover {
-  background-color: #808080; 
+.Copy-Email:hover {
+  background-color: var(--second-color); 
 }
 
-.icon-button {
+.Icon-Button {
   height: 100%;
   margin-left: 10px; 
   display: flex;
   align-items: center;
-  border-left: 2px solid black; 
+  padding: 10px 0;
   padding-left: 10px; 
 }
+.Plus{
+  border-left: 2px solid black; 
+}
+.Email{
+  border-left: 2px solid var(--second-bg); 
+}
 
-.icon-button img {
+.Icon-Button img {
   width: 20px;
   height: 20px;
 }
 
+.Copy-Message {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--primary-bg);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  animation: fadeOut 2s;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

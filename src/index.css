@@ -16,4 +16,7 @@
 body{
   background-color: var(--primary-bg);
   padding: 25px 150px;
+  @media (max-width: 1440px) {
+    padding: 25px 60px;
+  }
 }
