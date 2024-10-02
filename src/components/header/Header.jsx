@@ -40,7 +40,7 @@ const Header = () => {
             </div>
             <div className="Info-Img">
                 <div className="Image-Border">
-                    <img src={pic} alt="" />
+                    {/* <img src={pic} alt="" /> */}
                 </div>
             </div>
         </div>
