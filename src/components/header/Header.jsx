@@ -40,7 +40,7 @@ const Header = () => {
             </div>
             <div className="Info-Img">
                 <div className="Image-Border">
-                    {/* <img src={pic} alt="" /> */}
+                    <img src={pic} alt="" />
                 </div>
             </div>
         </div>
@@ -63,8 +63,10 @@ const Header = () => {
           </button>
           {copied && <div className="Copy-Message">Email copied!</div>} 
         </div>
+        
       </header>
     </div>
+    
   )
 }
 
