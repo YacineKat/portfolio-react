@@ -19,7 +19,7 @@ const Header = () => {
       });
   };
   return (
-    <div>
+    <>
       <header className="Header-Cont" id='about'>
         <div className="Info">
             <div className="Job">
@@ -65,7 +65,7 @@ const Header = () => {
         </div>
         
       </header>
-    </div>
+    </>
     
   )
 }
