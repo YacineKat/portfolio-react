@@ -4,7 +4,7 @@ import './Body.css'
 const Body = () => {
   return (
     <div  className="Body">
-        <div className="Cont_Left grid">
+        <div className="Cont_Left Grid">
             <div className="Cont_Left_Project">Project</div>
             <h3>Web Devloper</h3>
             <span >
@@ -20,9 +20,9 @@ const Body = () => {
             </span>
         </div>
         <div className="Cont_Right">
-            <div className="Cont_Right1 grid cont"><p>Web Devloper</p></div>
-            <div className="Cont_Right2 grid cont"><p>Mobel Developer</p></div>
-            <div className="Cont_Right3 grid cont"><p>Graphic Design</p></div>
+            <div className="Grid Cont">Web Devloper</div>
+            <div className="Grid Cont">Mobel Developer</div>
+            <div className="Cont_Bottom Grid Cont">Graphic Design</div>
         </div>
     </div>
   )
