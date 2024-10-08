@@ -1,0 +1,51 @@
+.Body{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    /* background: red; */
+    column-gap: 20px;
+    padding-top: 20px;
+}
+.grid{
+    border: 2px solid var(--second-bg);;
+    padding: 30px;
+    background: var(--second-color);
+    border-radius: 20px;
+    
+}
+.cont::before{
+    content: '';
+    position: absolute;
+    top: -3px;
+    right: -2px;
+    width: 45%; 
+    height: 50%; 
+    border-top: 3px solid var(--primary-color); 
+    border-right: 2px solid var(--primary-color);
+    border-radius: 0 20px 0 0; 
+    mask-image: linear-gradient(to top, rgb(255, 255, 255), rgb(243, 241, 241)), 
+    linear-gradient(to left, rgb(252, 252, 252), rgba(255, 0, 0, 0)), 
+    linear-gradient(to right, rgb(255, 255, 255), rgb(255, 252, 252)), 
+    linear-gradient(to bottom, rgb(243, 243, 243), rgba(255, 255, 255, 0));
+    mask-composite: intersect;
+}
+.cont{
+    position: relative;
+    background: linear-gradient(
+        to bottom left,
+        #e042fc7e 1%,
+        var(--second-color) 20%,
+        var(--second-color) 30%
+    );
+}
+.Cont_Right{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 10px;
+}
+.Cont_Right .grid{
+    height: 12vh;
+    text-align: center;
+}
+.Cont_Right .Cont_Right3 {
+    grid-column: 1/3;
+}
