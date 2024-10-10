@@ -5,7 +5,7 @@ const Body = () => {
   return (
     <div  className="Body">
         <div className="Cont_Left Grid">
-            <div className="Cont_Left_Project">Project</div>
+            <div><ul><li>Project</li></ul></div>
             <h3>Web Devloper</h3>
             <span >
               2024 - Present
@@ -20,9 +20,9 @@ const Body = () => {
             </span>
         </div>
         <div className="Cont_Right">
-            <div className="Grid Cont">Web Devloper</div>
-            <div className="Grid Cont">Mobel Developer</div>
             <div className="Cont_Bottom Grid Cont">Graphic Design</div>
+            <div className="Grid Cont mincont">Web Devloper</div>
+            <div className="Grid Cont mincont">Mobel Developer</div>
         </div>
     </div>
   )
